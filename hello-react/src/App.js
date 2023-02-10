@@ -1,10 +1,11 @@
 import './App.css'
-import MyName from './MyName';
+// import MyName from './MyName';
 import Counter from './Counter';
 
 const App = () =>{
   
   return(
+    // <MyName name={"Geun won"}>리액트</MyName>
     // <MyName name = "Geun Won" />
     <Counter />
   )
