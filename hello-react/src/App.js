@@ -1,13 +1,15 @@
 import './App.css'
 // import MyName from './MyName';
-import Counter from './Counter';
+// import classCounter from './classCounter';
+import Say from './useState';
 
 const App = () =>{
   
   return(
     // <MyName name={"Geun won"}>리액트</MyName>
     // <MyName name = "Geun Won" />
-    <Counter />
+    // <classCounter />
+    <Say />
   )
 }
 
