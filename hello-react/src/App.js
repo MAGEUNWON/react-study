@@ -1,7 +1,8 @@
 import './App.css'
 // import MyName from './MyName';
 // import classCounter from './classCounter';
-import Say from './useState';
+// import Say from './useState';
+import EventPractice from './EventPractice';
 
 const App = () =>{
   
@@ -9,7 +10,7 @@ const App = () =>{
     // <MyName name={"Geun won"}>리액트</MyName>
     // <MyName name = "Geun Won" />
     // <classCounter />
-    <Say />
+    <EventPractice />
   )
 }
 
