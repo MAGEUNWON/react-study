@@ -5,7 +5,8 @@ import './App.css'
 // import Say from './useState';
 // import EventPractice from './EventPractice';
 // import ValidationSample from './ValidationSample';
-import ScrollBox from './ScrollBox';
+// import ScrollBox from './ScrollBox';
+import IterationSample from './IterationSample';
 
 // const App = () =>{
   
@@ -17,16 +18,24 @@ import ScrollBox from './ScrollBox';
 //   )
 // }
 
+// class App extends Component {
+//   render() {
+//     return (
+//       <div>
+//         <ScrollBox ref={(ref) => this.scrollBox=ref} />
+//         <button onClick={()=> this.scrollBox.scrollToBottom()}>
+//           맨 밑으로
+//         </button>
+//       </div>
+//     );
+//   }
+// }
+
 class App extends Component {
   render() {
     return (
-      <div>
-        <ScrollBox ref={(ref) => this.scrollBox=ref} />
-        <button onClick={()=> this.scrollBox.scrollToBottom()}>
-          맨 밑으로
-        </button>
-      </div>
-    );
+      <IterationSample />
+    )
   }
 }
 
